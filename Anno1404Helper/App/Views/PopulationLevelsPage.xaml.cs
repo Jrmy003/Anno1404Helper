@@ -17,5 +17,9 @@ public partial class PopulationLevelsPage : ContentPage
         var entry = sender as Entry;
         if (entry == null) return;
         entry.Text = string.Empty;
+        
+        // when entry cleared keyboard doesn't appear
+        // force display of keyboard
+        KeyboardHelper.ForceDisplayKeyboard(entry);
     }
 }
