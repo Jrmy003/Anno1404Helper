@@ -1,7 +1,7 @@
 Anno 1404 Helper
 ================
 
-Displays consumption, production chains and farms layout for Anno 1404 game.
+Displays consumption, production chains and farms layouts for Anno 1404 game.
 
 <img src="https://github.com/Jrmy003/Anno1404Helper/assets/3603542/8710b084-8d4d-4133-a113-14a1262091f5" height="480" />
 
