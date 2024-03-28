@@ -11,7 +11,8 @@
     <ScrollView VerticalOptions="Fill">
         <VerticalStackLayout>
             <ListView ItemsSource="{Binding PopulationLevels }"
-                      HasUnevenRows="True">
+                      HasUnevenRows="True"
+                      SelectionMode="None">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:PopulationLevelModel">
                         <ViewCell>
